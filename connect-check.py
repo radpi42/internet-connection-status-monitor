@@ -17,6 +17,7 @@ while True:
         
     while connection.check() == True:   
         print(connection.check())
+        print("Connected")
         count +=1
 
         print(counter_mes %count)
